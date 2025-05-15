@@ -79,7 +79,7 @@ f9aec3ec204f   host                   host      local
 e4212e179f50   none                   null      local
 ```
 
-To deploy containers on our network, we can us the *--network parameter* in the docker run command:
+To deploy containers on our network, we can use the *--network parameter* in the docker run command:
 ```bash
 docker run -itd --name will --network blackpearl busybox
 docker run -itd --name jan --network blackpearl busybox
